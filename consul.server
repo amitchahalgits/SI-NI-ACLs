@@ -1,0 +1,10 @@
+Key                 Value
+---                 -----
+lease_id            consul/creds/consul-server-role/IfBY9oTtPnaXxOvs9o7XlxfQ
+lease_duration      768h
+lease_renewable     true
+accessor            ff078474-ea18-ffe6-9d11-c9e65366b4bf
+consul_namespace    n/a
+local               false
+partition           n/a
+token               f36b4a1a-ddd5-21b3-d0df-263c05da7124

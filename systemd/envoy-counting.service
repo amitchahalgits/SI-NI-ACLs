@@ -6,6 +6,7 @@ ConditionPathExists=/etc/consul.d/counting.hcl
 
 [Service]
 Type=simple
+Environment=CONSUL_HTTP_TOKEN=9c15510e-3820-2054-b58f-b3bbfd77b752
 ExecStart=/usr/bin/consul connect envoy -sidecar-for=counting -- -l debug
 Restart=on-failure
 RestartSec=5
